@@ -1,6 +1,8 @@
 .header__nav {
   display: flex;
   overflow: hidden;
+  background-image: url("../../assets/1.png");
+  background-size: cover;
 }
 
 .header__logo {
@@ -11,14 +13,6 @@
   padding: 20px;
 }
 
-.header__logo-overlay {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-
-  background-color: var(--primary-color);
-  z-index: -1;
-}
 
 .header__logo h4 {
   padding-left: 30px;
@@ -38,7 +32,6 @@
   align-items: center;
   justify-content: flex-end;
   gap: 50px;
-  color: aqua;
 
   list-style: none;
 }
@@ -46,7 +39,7 @@
 .header__menu li {
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
-  color: var(--secondary-color);
+  color: white;
   font-size: 16px;
   text-transform: uppercase;
   line-height: 20px;
