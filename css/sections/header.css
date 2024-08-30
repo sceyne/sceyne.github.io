@@ -37,7 +37,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 64px;
+  gap: 50px;
+  background-color: aqua;
 
   list-style: none;
 }
