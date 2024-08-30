@@ -3,6 +3,7 @@
   overflow: hidden;
   background-image: url("../../assets/1.png");
   background-size: cover;
+  width: 100%;
 }
 
 .header__logo {
