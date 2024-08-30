@@ -60,6 +60,11 @@
 .header__menu-mobile {
   display: none;
   gap: 20px;
-
   position: relative;
+}
+
+.header__main {
+  justify-content: center;
+  flex: 1;
+  color:aquamarine;
 }
