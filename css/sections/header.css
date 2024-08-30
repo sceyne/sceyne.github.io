@@ -1,9 +1,15 @@
-.header__nav {
-  display: flex;
-  overflow: hidden;
+.header {
   background-image: url("../../assets/1.png");
   background-size: cover;
   width: 100%;
+  min-height: 500px;
+}
+
+
+.header__nav {
+  display: flex;
+  overflow: hidden;
+
 }
 
 .header__logo {
