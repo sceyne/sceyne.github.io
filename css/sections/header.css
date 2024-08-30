@@ -1,8 +1,7 @@
 .header__background {
   background-image: url("../../assets/1.png");
   width: 100%;
-  min-height: 500px;
-  background-color: green;
+  height: 100vh;
 }
 
 
@@ -15,10 +14,8 @@
 .header__logo {
   flex: 1;
   display: flex;
-
   position: relative;
   padding: 20px;
-  background-color: pink;
 }
 
 
@@ -40,7 +37,6 @@
   align-items: center;
   justify-content: flex-end;
   gap: 50px;
-  background-color: yellow;
 
   list-style: none;
 }
