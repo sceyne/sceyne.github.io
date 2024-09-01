@@ -65,9 +65,11 @@
 }
 
 .header__main {
+  display: flex;
+  position: fixed;
   justify-content: center;
   flex: 1;
-  background-color:red;
+  background-color:pink;
   align-items: center;
 }
 
