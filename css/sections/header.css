@@ -4,7 +4,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 
