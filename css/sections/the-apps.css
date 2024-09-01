@@ -1,0 +1,30 @@
+.the-apps__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.the-apps__container h4 {
+    align-self: center;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.the-apps__description-container {
+    display: flex;
+    overflow: hidden;
+    min-height: 500px;
+    width: 100%;
+}
+
+.the-apps__description-container img {
+    width: 30%;
+    height: 30%;
+}
+
+.the-apps__description-container p {
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+}
