@@ -10,7 +10,6 @@
 .header__nav {
   display: flex;
   overflow: hidden;
-  background-color: yellow;
 }
 
 .header__logo {
@@ -68,7 +67,6 @@
   display: flex;
   justify-content: center;
   flex: 1;
-  background-color:pink;
   align-items: center;
 }
 
