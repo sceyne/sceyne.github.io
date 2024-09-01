@@ -77,10 +77,13 @@
   text-transform: uppercase;
   font-family: var(--playfair-display);
   color: #fff;
+  background-color: yellow;
+  margin: 20px;
 }
 
 .header__main p {
   font-weight: 400;
   font-size: 18px;
   color: #fff;
+  background-color: green;
 }
