@@ -16,6 +16,7 @@ header {
 .header__nav {
   display: flex;
   overflow: hidden;
+  background-color: beige;
 }
 
 .header__logo {
