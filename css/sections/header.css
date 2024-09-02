@@ -19,7 +19,6 @@ header {
 .header__nav {
   display: flex;
   overflow: hidden;
-  background-color: blue;
 }
 
 .header__logo {
@@ -82,7 +81,7 @@ header {
 
 .header__main h4 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 28px;
   text-transform: uppercase;
   font-family: var(--playfair-display);
   color: #fff;
@@ -91,6 +90,6 @@ header {
 
 .header__main p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
   color: #fff;
 }
