@@ -77,7 +77,6 @@ header {
   justify-content: center;
   flex: 1;
   align-items: center;
-  margin-top: -60px;
 }
 
 .header__main h4 {
@@ -86,17 +85,18 @@ header {
   text-transform: uppercase;
   font-family: var(--playfair-display);
   color: #fff;
+  margin-top: -60px;
 }
 
 .header__main p {
   font-weight: 400;
   font-size: 23px;
   color: #fff;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: -40px;
 }
 
 .header__button {
+  margin-top: -40px;
   background-color: #ffedce;
   border-radius: 30px;
   min-width: 15%;
