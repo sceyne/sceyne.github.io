@@ -85,18 +85,17 @@ header {
   text-transform: uppercase;
   font-family: var(--playfair-display);
   color: #fff;
-  margin-top: -60px;
+  margin-bottom: 20px;
 }
 
 .header__main p {
   font-weight: 400;
   font-size: 23px;
   color: #fff;
-  margin-top: -40px;
+  margin-bottom: 40px;
 }
 
 .header__button {
-  margin-top: -40px;
   background-color: #ffedce;
   border-radius: 30px;
   min-width: 15%;
