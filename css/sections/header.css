@@ -98,12 +98,13 @@ header {
 .header__button {
   background-color: #ffedce;
   border-radius: 30px;
-  min-width: 10%;
+  min-width: 15%;
   min-height: 10%;
   border: none;
   font-size: 27px;
   cursor: pointer;
-  box-shadow: 10px 10px 10px bisque;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .7);
+  padding: 3px;
 }
 
 .header__button:hover {
