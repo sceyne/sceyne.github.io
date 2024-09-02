@@ -98,4 +98,6 @@ header {
 .header__button {
   background-color: #ffedce;
   border-radius: 15px;
+  width: 10%;
+  height: 10%;
 }
