@@ -1,6 +1,9 @@
 .the-apps__container {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .the-apps__container h4 {
@@ -16,6 +19,7 @@
     overflow: hidden;
     min-height: 500px;
     width: 100%;
+    background-color: mediumpurple;
 }
 
 .the-apps__description-container img {
