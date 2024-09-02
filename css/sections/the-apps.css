@@ -9,12 +9,11 @@
 .the-apps__container h4 {
     align-self: center;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     color: #fff;
     margin-top: 80px;
     margin-bottom: 80px;
-    background-color: orangered;
 }
 
 .the-apps__description-container {
@@ -22,7 +21,6 @@
     overflow: hidden;
     min-height: 500px;
     width: 100%;
-    background-color: mediumpurple;
 }
 
 .the-apps__description-container img {
