@@ -36,8 +36,9 @@
 }
 
 .the_apps__text-container {
-    background-color: darkgoldenrod;
+    background-color: rgb(11, 80, 184);
     justify-content: space-evenly;
+    width: 60%;
 }
 
 .the_apps__text-container h4 {
@@ -50,7 +51,5 @@
     font-weight: 200;
     font-size: 20px;
     color: #fff;
-    width: 60%;
-    background-color: darksalmon;
     align-self: center;
 }
