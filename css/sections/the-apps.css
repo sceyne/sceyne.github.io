@@ -4,9 +4,8 @@
     min-height: 100vh;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rosybrown;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .the-apps__container h4 {
@@ -23,18 +22,24 @@
     display: flex;
     overflow: hidden;
     min-height: 500px;
-    width: 80%;
+    width: 100%;
     align-self: center;
     background-color: darkslategrey;
+    justify-content: space-between;
 }
 
 .the-apps__description-container img {
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: auto;
+    align-self: center;
+    background-color: aqua;
+
 }
 
 .the-apps__description-container p {
     font-weight: 200;
     font-size: 20px;
     color: #fff;
+    width: 70%;
+    background-color: darksalmon;
 }
