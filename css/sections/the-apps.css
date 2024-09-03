@@ -4,6 +4,9 @@
     min-height: 100vh;
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rosybrown;
 }
 
 .the-apps__container h4 {
@@ -20,7 +23,9 @@
     display: flex;
     overflow: hidden;
     min-height: 500px;
-    width: 100%;
+    width: 80%;
+    align-self: center;
+    background-color: darkslategrey;
 }
 
 .the-apps__description-container img {
