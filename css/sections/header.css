@@ -97,18 +97,17 @@ header {
 
 .header__button {
   /* background-color: #ffedce; */
-  background-color:aqua;
+  background-color:lawngreen;
   border-radius: 30px;
-  min-width: 15%;
-  min-height: 10%;
+  /* min-width: 15%;
+  min-height: 10%; */
   border: none;
   font-size: 27px;
   cursor: pointer;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, .7);
-  padding: 3px;
+  padding: 30px;
   /* text-align: center;
   display: block; */
-  align-self: center;
 }
 
 .header__button:hover {
