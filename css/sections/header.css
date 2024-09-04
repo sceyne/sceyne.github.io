@@ -96,8 +96,7 @@ header {
 }
 
 .header__button {
-  /* background-color: #ffedce; */
-  background-color:lawngreen;
+  background-color: #ffedce;
   border-radius: 30px;
   /* min-width: 15%;
   min-height: 10%; */
@@ -105,7 +104,7 @@ header {
   font-size: 27px;
   cursor: pointer;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, .7);
-  padding: 30px;
+  padding: 5% 10%;
   /* text-align: center;
   display: block; */
 }
