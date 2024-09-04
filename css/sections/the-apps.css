@@ -42,9 +42,10 @@
 }
 
 .the_apps__text-container h4 {
-    font-weight: 600;
-    font-size: 28px;
-    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+    color:whitesmoke;
+    font-style: italic;
 }
 
 .the_apps__text-container p {
