@@ -1,7 +1,6 @@
 .footer {
   width: 100%;
   padding: 20px 40px;
-  background: var(--color-white);
 
   flex-wrap: wrap;
   gap: 20px;
@@ -14,13 +13,7 @@
   font-weight: bold;
   font-family: var(--playfair-display);
   text-transform: uppercase;
-  color: var(--secondary-color);
-
-  cursor: pointer;
-}
-
-.footer__logo span {
-  color: var(--primary-color)
+  color: white;
 }
 
 .footer ul {
@@ -29,7 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 64px;
+  gap: 50px;
 }
 
 .footer ul:last-child {
@@ -41,7 +34,7 @@
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: white;
 
   cursor: pointer;
 }
