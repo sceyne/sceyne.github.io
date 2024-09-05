@@ -24,6 +24,10 @@
 }
 
 @font-face {
+  font-family: Prompt;
+  src: url('../assets/fonts/Prompt-Black.ttf');
+}
+@font-face {
   font-family: DMSans;
   src: url('../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf');
 }
