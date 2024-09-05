@@ -28,6 +28,11 @@
   src: url('../assets/fonts/LeagueSpartan-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: DMSans;
+  src: url('../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
