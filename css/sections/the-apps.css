@@ -10,12 +10,12 @@
 
 .the-apps__container h4 {
     align-self: center;
-    font-size: 30px;
+    font-size: 32px;
     text-transform: uppercase;
     color: #fff;
     margin-top: 60px;
     margin-bottom: 60px;
-    font-family: 'Crimson Text';
+    font-family: 'Noto Serif';
 }
 
 .the-apps__description-container {
@@ -25,7 +25,6 @@
     width: 100%;
     align-self: center;
     justify-content: space-between;
-    background-color:darkred;
 }
 
 .the-apps__description-container img {
