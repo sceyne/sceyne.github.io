@@ -31,7 +31,7 @@ header {
 .header__logo h4 {
   padding-left: 30px;
   font-weight: 700;
-  font-size: 24px;
+  /* font-size: 24px; */
   text-transform: uppercase;
   font-family: var(--playfair-display);
   color: #fff;
@@ -81,7 +81,7 @@ header {
 
 .header__main h4 {
   font-weight: 700;
-  font-size: 32px;
+  /* font-size: 32px; */
   text-transform: uppercase;
   font-family: var(--playfair-display);
   color: #fff;
@@ -90,7 +90,7 @@ header {
 
 .header__main p {
   font-weight: 400;
-  font-size: 23px;
+  /* font-size: 23px; */
   color: #fff;
   margin-bottom: 40px;
 }
