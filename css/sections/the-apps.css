@@ -41,15 +41,16 @@
 }
 
 .the_apps__text-container h4 {
-    font-weight: 200;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 22px;
     color:whitesmoke;
-    font-style: italic;
+    font-family: 'League Spartan';
+
 }
 
 .the_apps__text-container p {
     font-weight: 200;
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     align-self: center;
 }

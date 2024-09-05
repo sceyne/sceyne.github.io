@@ -23,6 +23,11 @@
   --color-creamson: #fff0de;
 }
 
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../assets/fonts/LeagueSpartan-VariableFont_wght.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
