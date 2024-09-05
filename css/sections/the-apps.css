@@ -16,7 +16,7 @@
     color: #fff;
     margin-top: 60px;
     margin-bottom: 60px;
-    font-family: Prompt;
+    font-family: 'Work Sans';
 }
 
 .the-apps__description-container {
@@ -26,6 +26,7 @@
     width: 100%;
     align-self: center;
     justify-content: space-between;
+    background-color: honeydew;
 }
 
 .the-apps__description-container img {
