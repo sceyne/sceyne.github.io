@@ -24,7 +24,7 @@
     min-height: 500px;
     width: 100%;
     align-self: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .the-apps__description-container img {
@@ -34,12 +34,20 @@
 
 }
 
-.the_apps__text-container {
+.the-apps__text-container {
     justify-content: space-evenly;
     width: 60%;
 }
 
-.the_apps__citation {
+.the-apps__text-container h4 {
+    font-weight: 300;
+    /* font-size: 22px; */
+    color:white;
+    font-family: Roboto;
+    margin-bottom: 20px;
+}
+
+.the-apps__citation {
     font-weight: 100;
     /* font-size: 22px; */
     color: #fff;
@@ -47,15 +55,9 @@
     font-family: 'Martian Mono';
 }
 
-.the_apps__text-container h4 {
-    font-weight: 300;
-    /* font-size: 22px; */
-    color:white;
-    font-family: Roboto;
 
-}
 
-.the_apps__text-container p {
+.the-apps__text {
     font-weight: 100;
     /* font-size: 22px; */
     color: #fff;
