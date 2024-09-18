@@ -76,6 +76,12 @@ p {
   font-size: 22px;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .sushi__hide-scrollbar::-webkit-scrollbar {
   display: none;
