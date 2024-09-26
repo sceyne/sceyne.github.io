@@ -1,11 +1,11 @@
 .privacy-policy__title {
     font-weight: 700;
     color: white;
-    padding: 20px;
+    padding: 5%;
     text-align: center;
-    background-color: aqua;
+    white-space: pre-line;
 }
 .privacy-policy__intro {
     color: white;
-    padding: 30px;
+    padding: 15%;
 }
