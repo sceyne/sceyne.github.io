@@ -63,19 +63,28 @@ h1 {
 
 h2 {
   font-size: 33px;
+  font-family: 'Noto Serif';
 }
 
 h3 {
   font-size: 28px;
+  font-family: 'Noto Serif';
 }
 
 h4 {
   font-size: 23px;
+  font-family: 'Noto Serif';
 }
 
 p {
   font-size: 20px;
-  font-family: 'Martian Mono';
+  font-family: Roboto;
+}
+
+pre, li {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
 }
 
 .flex-between {
