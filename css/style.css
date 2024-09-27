@@ -173,7 +173,6 @@ pre, li {
 @media screen and (max-width: 900px) {
   .privacy-policy__intro {
     padding: 3% 5%;
-    background-color: darkmagenta;
 }
 
 .privacy-policy__txt {
