@@ -171,17 +171,27 @@ pre, li {
 
 /* START: header media querie */
 @media screen and (max-width: 900px) {
-  .header__nav {
-    background: var(--primary-color);
-  }
+  .privacy-policy__intro {
+    padding: 3% 5%;
+    background-color: darkmagenta;
+}
 
-  .header__menu {
-    display: none;
-  }
+.privacy-policy__txt {
+    padding: 0 5%;
+    overflow-wrap: break-word;
+}
 
-  .header__menu-mobile {
-    display: flex;
-  }
+.privacy-policy__ch {
+    padding: 4% 5% 0;
+}
+
+.privacy-policy__sec {
+    padding: 3% 5% 1%;
+}
+
+li {
+    padding: 0 5% 0 7%;
+}
 }
 
 @media screen and (max-width: 550px) {
