@@ -10,13 +10,13 @@
 }
 
 .privacy-policy__txt {
-    padding: 0 15%;
+    padding: 0.5% 15%;
     hyphens: auto;
     /* overflow-wrap: break-word; */
 }
 
 .privacy-policy__ch {
-    padding: 3% 15% 0;
+    padding: 3% 15% 1%;
     hyphens: auto;
 }
 
