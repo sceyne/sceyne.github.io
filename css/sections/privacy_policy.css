@@ -2,27 +2,36 @@
     font-weight: 700;
     padding: 2% 5%;
     text-align: center;
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
     hyphens: auto;
     background-color: cornflowerblue;
 }
 .privacy-policy__intro {
     padding: 2% 15%;
+    hyphens: auto;
 }
 
 .privacy-policy__txt {
     padding: 0 15%;
-    overflow-wrap: break-word;
+    hyphens: auto;
+    /* overflow-wrap: break-word; */
 }
 
 .privacy-policy__ch {
     padding: 3% 15% 0;
+    hyphens: auto;
 }
 
 .privacy-policy__sec {
     padding: 2% 15% 1%;
+    hyphens: auto;
 }
 
 li {
     padding: 0 15% 0 17%;
+    hyphens: auto;
+}
+
+.privacy-policy__txt a {
+    text-decoration: underline;
 }
