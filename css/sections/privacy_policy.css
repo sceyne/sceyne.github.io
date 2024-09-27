@@ -2,9 +2,7 @@
     font-weight: 700;
     padding: 2% 5%;
     text-align: center;
-    /* overflow-wrap: break-word; */
     hyphens: auto;
-    background-color: cornflowerblue;
 }
 .privacy-policy__intro {
     padding: 2% 15%;

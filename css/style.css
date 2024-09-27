@@ -54,42 +54,49 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  overflow-wrap: break-word;
 }
 
 h1 {
   color: white;
   font-size: 38px;
   font-family: 'Noto Serif';
+  overflow-wrap: break-word;
 }
 
 h2 {
   color: white;
   font-size: 33px;
   font-family: 'Noto Serif';
+  overflow-wrap: break-word;
 }
 
 h3 {
   color: white;
   font-size: 28px;
   font-family: 'Noto Serif';
+  overflow-wrap: break-word;
 }
 
 h4 {
   color: white;
   font-size: 23px;
   font-family: 'Noto Serif';
+  overflow-wrap: break-word;
 }
 
 p {
   color: white;
   font-size: 20px;
   font-family: Roboto;
+  overflow-wrap: break-word;
 }
 
 pre, li {
   color: white;
   font-size: 20px;
   font-family: Roboto;
+  overflow-wrap: break-word;
 }
 
 .flex-between {
@@ -177,7 +184,6 @@ pre, li {
 
 .privacy-policy__txt {
     padding: 0 5%;
-    overflow-wrap: break-word;
 }
 
 .privacy-policy__ch {
@@ -185,7 +191,7 @@ pre, li {
 }
 
 .privacy-policy__sec {
-    padding: 5% 5% 1%;
+    padding: 8% 5% 4%;
 }
 
 li {
