@@ -124,7 +124,7 @@ pre, li {
     padding: 3% 5%;
 }
 
-.privacy-policy__txt {
+.privacy-policy__txt, .impressum__txt {
     padding: 1% 5%;
 }
 
