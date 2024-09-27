@@ -1,0 +1,26 @@
+.impressum__txt {
+    padding: 0.5% 15%;
+    hyphens: auto;
+}
+
+.impressum__title {
+    font-weight: 700;
+    padding: 2% 5% 2%;
+    text-align: center;
+    hyphens: auto;
+    background-color: darkcyan;
+}
+
+div {
+    padding: 1% 0;
+}
+
+.impressum__ch {
+    padding: 3% 15% 1%;
+    hyphens: auto;
+}
+
+.impressum__sec {
+    padding: 2% 15% 1%;
+    hyphens: auto;
+}
