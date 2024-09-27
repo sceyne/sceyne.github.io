@@ -57,24 +57,25 @@ a {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 38px;
   font-family: 'Noto Serif';
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 33px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
+  font-family: 'Martian Mono';
 }
 
 .flex-between {
