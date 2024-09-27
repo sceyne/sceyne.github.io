@@ -1,27 +1,22 @@
 .privacy-policy__title {
     font-weight: 700;
-    color: white;
     padding: 2% 5%;
     text-align: center;
     word-wrap: break-word;
 }
 .privacy-policy__intro {
-    color: white;
     padding: 2% 15%;
 }
 
 .privacy-policy__txt {
-    color: white;
     padding: 0 15%;
 }
 
 .privacy-policy__ch {
-    color: white;
     padding: 3% 15% 0;
 }
 
 .privacy-policy__sec {
-    color: white;
     padding: 2% 15% 1%;
 }
 
