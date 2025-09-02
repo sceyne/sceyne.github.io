@@ -1,35 +1,33 @@
 .privacy-policy__title {
-    font-weight: 700;
-    padding: 2% 5%;
-    text-align: center;
-    hyphens: auto;
+  padding: 2% 5%;
+  text-align: center;
+  hyphens: auto;
 }
 .privacy-policy__intro {
-    padding: 2% 15%;
-    hyphens: auto;
+  padding: 2% 15%;
+  hyphens: auto;
 }
 
 .privacy-policy__txt {
-    padding: 0.5% 15%;
-    hyphens: auto;
-    /* overflow-wrap: break-word; */
+  padding: 0 15%;
+  hyphens: auto;
 }
 
 .privacy-policy__ch {
-    padding: 3% 15% 1%;
-    hyphens: auto;
+  padding: 3% 15% 1%;
+  hyphens: auto;
 }
 
 .privacy-policy__sec {
-    padding: 2% 15% 1%;
-    hyphens: auto;
+  padding: 2% 15% 1%;
+  hyphens: auto;
 }
 
 li {
-    padding: 0 15% 0 17%;
-    hyphens: auto;
+  /* padding: 0 15% 0 17%;
+  hyphens: auto; */
 }
 
 .privacy-policy__txt a {
-    text-decoration: underline;
+  text-decoration: underline;
 }

@@ -1,0 +1,131 @@
+/* Fullscreen sections */
+.section__services {
+  display: flex;
+  min-height: 85vh;
+  overflow: visible;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 15vh;
+  padding: var(--space-2) 0;
+}
+
+.section__services h3 {
+  align-self: center;
+  text-align: center;
+  margin-bottom: var(--space-2);
+}
+
+.services__view {
+  display: flex;
+  flex-wrap: wrap; /* allows stacking on small screens */
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 100%;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+/* Individual service block */
+.service__block {
+  flex: 1 1 40%; /* grow, shrink, minimum 300px */
+  max-width: 400px;
+  display: flex;
+  flex-direction: column; /* stack title and text vertically */
+  background-color: white;
+  border-radius: 20px;
+  padding: var(--space-2);
+  box-sizing: border-box;
+  min-height: 250px;
+}
+
+.service__title {
+  font-weight: 700;
+  color: black;
+  font-size: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+
+.service__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: Inter;
+  color: black;
+}
+
+.service__text p {
+  font-weight: bold;
+  margin-bottom: var(--space-1);
+  color: black;
+}
+
+.service__text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service__text li {
+  margin-bottom: 0.5rem;
+  color: black;
+  font-family: Inter;
+}
+
+.serives__summary_text {
+  width: 90%;
+  max-width: 800px;
+  margin: var(--space-2) auto;
+  font-family: Inter;
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  text-align: center;
+}
+
+.services__link_meet {
+  display: inline-block;
+  width: 90%;
+  max-width: 800px;
+  margin: var(--space-2) auto;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Inter;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  color: white;
+}
+
+/* ================== Responsive Adjustments ================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .service__block {
+    min-width: 45%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .services__view {
+    flex-direction: column; /* stack blocks vertically */
+    gap: var(--space-2);
+  }
+
+  .service__block {
+    width: 90%;
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .service__title {
+    text-align: center;
+  }
+
+  .service__text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .serives__summary_text,
+  .services__link_meet {
+    width: 95%;
+    text-align: center;
+  }
+}

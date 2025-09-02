@@ -1,110 +1,94 @@
+/* 2️⃣ Header and background */
 header {
   width: 100%;
   height: 100vh;
+  margin-bottom: 15vh;
 }
 
 .header__background {
-  background-image: url("../../assets/1.png");
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.header__nav {
-  display: flex;
-  overflow: hidden;
-}
-
-.header__logo {
-  flex: 1;
-  display: flex;
-  position: relative;
-  padding: 20px;
-}
-
-.header__logo h4 {
-  padding-left: 30px;
-  font-weight: 700;
-  /* font-size: 24px; */
-  text-transform: uppercase;
-  font-family: var(--playfair-display);
-  color: #fff;
-  opacity: 0.8;
-}
-
-.header__menu, .header__menu-mobile {
-  padding: 20px;
-  flex: 1.236;
-  display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 50px;
-
-  list-style: none;
-}
-
-.header__menu li {
-  font-weight: 500;
-  font-family: var(--plus-jakarta-sans);
-  color: white;
-  font-size: 16px;
-  text-transform: uppercase;
-  line-height: 20px;
-  cursor: pointer;
-}
-
-.header__menu li img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
-
-.header__menu-mobile {
-  display: none;
-  gap: 20px;
-  position: relative;
-}
-
-.header__main {
-  display: flex;
-  flex-flow: column;
   justify-content: center;
-  flex: 1;
+  height: 100vh;
+  /* background removed */
+}
+
+/* 3️⃣ Navigation */
+.header__nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: var(--space-1) var(--space-2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: transparent;
+  box-sizing: border-box;
+  z-index: 9999;
 }
 
-.header__main h4 {
-  font-weight: 700;
-  /* font-size: 32px; */
-  text-transform: uppercase;
-  font-family: var(--playfair-display);
-  color: #fff;
-  margin-bottom: 20px;
+.header__nav.scrolled {
+  background-color: rgba(1, 2, 26, 0.9);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.header__main p {
-  font-weight: 400;
-  /* font-size: 23px; */
-  color: #fff;
-  margin-bottom: 40px;
+/* Logo */
+.header__logo {
+  display: flex;
+  align-items: center;
+  /* background-color: gold; */
 }
 
-.header__button {
-  background-color: #ffedce;
-  border-radius: 30px;
-  border: none;
-  font-size: 27px;
-  cursor: pointer;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, .7);
-  padding: 1% 2%;
+.header__logo img {
+  height: 4rem;
+  margin-left: 1rem;
 }
 
-.header__button:hover {
-  opacity: 0.8;
+.header__menu {
+  display: flex;
+  justify-content: flex-end; /* align to right */
+  align-items: center;
+  gap: var(--space-2); /* consistent spacing */
+  flex-wrap: wrap; /* allow wrapping if needed */
+  box-sizing: border-box; /* include padding in width calc */
+  margin-right: 1rem;
+}
+
+.header__menu a {
+  font-size: 0.9rem;
+  font-family: Outfit;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  transition: background-color 0.2s ease;
+}
+
+.header__menu a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.header__contact_button {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ================== Responsive Design ================== */
+/* Tablets & smaller */
+@media (max-width: 1024px) {
+  .header__menu {
+    gap: var(--space-1);
+  }
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  .header__menu {
+    display: none; /* ✅ nav collapses (replace with burger if needed) */
+  }
 }

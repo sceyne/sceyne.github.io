@@ -1,0 +1,146 @@
+.section__projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 85vh;
+  margin-bottom: 15vh;
+  padding: var(--space-2) 0;
+}
+
+.section__projects h3 {
+  text-align: center;
+  font-family: Outfit;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: var(--space-2);
+}
+
+/* Container for project blocks */
+.projects__view {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 0;
+  width: 100%;
+  position: relative;
+  /*min-height: 350px; /* ensures equal height for blocks */
+  height: 70%;
+  max-height: 500px; /* optional cap */
+}
+
+/* Individual project block */
+.project__block {
+  flex: 0 0 70%; /* grow, shrink, base width 70% */
+  /*max-width: 700px; /* prevent overly wide blocks */
+  display: flex;
+  flex-direction: row;
+  height: 100%; /* fills container height */
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  position: relative;
+}
+
+/* Make both blocks equal height */
+.projects__view .project__block {
+  height: 100%; /* will match the tallest container if parent has fixed height */
+}
+
+/* Text section */
+.project__text {
+  flex: 0 0 30%; /* fixed 30% width */
+  height: 100%; /* full block height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-2);
+  border-radius: 20px 0 0 20px;
+}
+
+/* Image section */
+.project__img {
+  flex: 0 0 70%; /* fixed 70% width */
+  height: 100%; /* fill block height */
+  object-fit: cover; /* fill container without distortion */
+  border-radius: 0 20px 20px 0;
+}
+
+.project__text p {
+  color: black;
+}
+
+.project__text h4 {
+  color: black;
+}
+
+.project__block#block1.active {
+  transform: translateX(5%) translateY(0);
+  opacity: 1;
+  z-index: 2;
+}
+
+.project__block#block2.inactive {
+  transform: translateX(-65%) translateY(10%);
+  opacity: 0.6;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.project__block#block1.inactive {
+  transform: translateX(5%) translateY(10%);
+  opacity: 0.6;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.project__block#block2.active {
+  transform: translateX(-65%) translateY(0);
+  opacity: 1;
+  z-index: 2;
+}
+
+/* ================== Responsive ================== */
+
+/* Tablets */
+/* ================== Responsive ================== */
+@media (max-width: 1024px) {
+  .projects__view {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    max-height: none;
+  }
+
+  .project__block {
+    flex: none;
+    width: 80%; /* stacked blocks width */
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+  }
+
+  .project__text,
+  .project__img {
+    flex: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .project__block {
+    width: 95%;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .project__text h4 {
+    font-size: 1.2rem;
+  }
+  .project__text p {
+    font-size: 1rem;
+  }
+}
