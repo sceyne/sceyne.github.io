@@ -1,13 +1,13 @@
 .impressum__txt {
   padding: 0 15%;
   hyphens: auto;
+  font-family: Inter;
 }
 
 .impressum__title {
   padding: 2% 5% 2%;
   text-align: center;
   hyphens: auto;
-  /* background-color: darkcyan; */
 }
 
 .impressum__link_to_eng {
@@ -24,4 +24,19 @@
 .impressum__sec {
   padding: 2% 15% 1%;
   hyphens: auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .impressum__txt {
+    padding: 0 5%;
+  }
+  .impressum__ch {
+    padding: 3% 5% 1%;
+    hyphens: auto;
+  }
+  .impressum__sec {
+    padding: 2% 5% 1%;
+    hyphens: auto;
+  }
 }

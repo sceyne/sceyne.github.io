@@ -11,7 +11,6 @@ header {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* background removed */
 }
 
 /* 3️⃣ Navigation */
@@ -26,7 +25,7 @@ header {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   background-color: transparent;
   box-sizing: border-box;
-  z-index: 9999;
+  z-index: 1000;
 }
 
 .header__nav.scrolled {
@@ -78,6 +77,87 @@ header {
   white-space: nowrap;
 }
 
+/* Burger button - hidden on desktop */
+.header__burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 0;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.header__burger span {
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+/* hide original lines when open */
+.header__burger.open span {
+  opacity: 0;
+  height: 0; /* collapse line completely */
+  margin: 0; /* remove spacing between spans */
+}
+
+/* X overlay */
+.header__burger .burger-x {
+  position: absolute;
+  top: 0; /* center vertically in button */
+  left: 50%; /* center horizontally */
+  transform: translate(-50%, -50%); /* exact center */
+  font-size: 1.25rem;
+  line-height: 1;
+  color: white;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* show X when menu open */
+.header__burger.open .burger-x {
+  opacity: 1;
+}
+
+/* Mobile menu - hidden by default */
+.header__menu_mobile {
+  display: flex; /* always flex for layout */
+  flex-direction: column;
+  position: fixed; /* fixed so it appears over content */
+  top: 60px; /* adjust according to nav height */
+  right: 0;
+  width: 80%; /* menu width on mobile */
+  max-width: 300px;
+  height: calc(100vh - 60px);
+  background-color: rgba(1, 2, 26, 0.95);
+  text-align: center;
+  padding: var(--space-2) 0;
+  transform: translateX(100%); /* hidden off-screen initially */
+  transition: transform 0.3s ease-in-out;
+  z-index: 10000;
+}
+
+.header__menu_mobile a {
+  display: block;
+  padding: var(--space-1) 0;
+  width: 80%;
+  align-self: center;
+}
+
+.header__menu_mobile.open {
+  transform: translateX(0);
+}
+
 /* ================== Responsive Design ================== */
 /* Tablets & smaller */
 @media (max-width: 1024px) {
@@ -90,5 +170,8 @@ header {
 @media (max-width: 768px) {
   .header__menu {
     display: none; /* ✅ nav collapses (replace with burger if needed) */
+  }
+  .header__burger {
+    display: flex; /* show burger */
   }
 }

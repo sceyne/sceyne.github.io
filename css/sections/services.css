@@ -12,6 +12,7 @@
 .section__services h3 {
   align-self: center;
   text-align: center;
+  font-size: clamp(1.5rem, 3vw, 2rem);
   margin-bottom: var(--space-2);
 }
 
@@ -42,19 +43,18 @@
   font-weight: 700;
   color: black;
   font-size: var(--space-2);
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--space-2);
 }
 
 .service__text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  font-family: Inter;
   color: black;
 }
 
 .service__text p {
-  font-weight: bold;
+  font-family: Inter;
   margin-bottom: var(--space-1);
   color: black;
 }
@@ -120,12 +120,15 @@
 
   .service__text {
     align-items: center;
-    text-align: center;
+    text-align: left;
   }
 
-  .serives__summary_text,
+  .serives__summary_text {
+    width: 90%;
+    text-align: left;
+  }
   .services__link_meet {
-    width: 95%;
+    width: 90%;
     text-align: center;
   }
 }

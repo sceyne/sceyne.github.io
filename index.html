@@ -15,8 +15,30 @@
           <div class="header__logo">
             <img src="./public/SDLogoWhite+Name.png" />
           </div>
+
+          <!-- Burger button -->
+          <button class="header__burger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="burger-x">X</span>
+            <!-- hidden by default -->
+          </button>
+
+          <!-- Desktop menu -->
           <div class="header__menu">
-            <a href="#home">HOME</a>
+            <a href="#" id="scrollToHome">HOME</a>
+            <a href="impressum">IMPRESSUM</a>
+            <a href="privacy-policy">DATENSCHUTZERKLÄRUNG</a>
+            <a
+              href="mailto:sceyne.digital@gmail.com"
+              class="header__contact_button"
+              >KONTAKTIERE UNS</a
+            >
+          </div>
+          <!-- Mobile menu (hidden by default) -->
+          <div class="header__menu_mobile">
+            <a href="#" id="scrollToHome">HOME</a>
             <a href="impressum">IMPRESSUM</a>
             <a href="privacy-policy">DATENSCHUTZERKLÄRUNG</a>
             <a
@@ -34,8 +56,10 @@
               machen den Weg dorthin <b>einfach, kreativ und effizient</b>.
             </p>
           </div>
-          <a href="mailto:sceyne.digital@gmail.com" class="hero__contact_button"
-            >Kontaktiere uns</a
+          <a
+            href="https://www.picktime.com/53bcdc5d-544c-4240-bed0-4e4c707374bd"
+            class="hero__contact_button"
+            >Ein kostensloses und unverbindliches Erstgespräch vereinbaren</a
           >
           <button class="hero__button_show_more">
             Erfahre mehr
@@ -92,12 +116,13 @@
       <div class="projects__view">
         <div class="project__block active" id="block1">
           <div class="project__text" id="projtext1">
-            <h4>re.atem App</h4>
+            <h3>re.atem</h3>
             <p>
-              Tolle App, coole Features, muss sofort heruntergeladen
-              werden!!!Hier erfährst du mehr über neue Möglichkeiten, deine Apps
-              zu präsentieren, und über leistungsstarke neue Abo-Funktionen, mit
-              denen du Käufe optimieren und Abwanderung reduzieren kannst
+              <b>re.atem</b> ist eine intuitiv zu bedienende Atemübungs-App, die
+              ihre Nutzer dabei unterstützt, mit flexibler Übungsdauer und
+              Gamification-Elementen die Atemübungen in die Tagesroutine zu
+              integrieren.<br /><br /><b>System-Unterstützung:</b> Android,
+              iOS<br /><b>Design und Implementierung von</b> sceyne digital
             </p>
           </div>
           <img
@@ -109,8 +134,17 @@
 
         <div class="project__block inactive" id="block2">
           <div class="project__text" id="projtext2">
-            <h4>Zweites Projekt</h4>
-            <p>Ein weiteres cooles Projekt mit spannenden Details!</p>
+            <h3>Zombies Behind Me</h3>
+            <p>
+              <b>Zombies Behind Me</b> ist eine minimalistische und interaktive
+              Fitness App gemacht für Jogger. Mithilfe des Gamification-Ansatzes
+              macht die App jede Jogging-Session zu einem
+              Zombie-Apokalypse-Abenteuer.<br /><br /><b
+                >System-Unterstützung:</b
+              >
+              Android, iOS<br /><b>Design und Implementierung von</b> sceyne
+              digital
+            </p>
           </div>
           <img
             class="project__img"
@@ -125,7 +159,7 @@
       <!-- Top Section: Logo and Social Links -->
       <div class="footer__top">
         <!-- Company Logo -->
-        <a href="/">
+        <a href="#" id="scrollToHome">
           <img class="footer__logo" src="./public/g1.png" />
         </a>
         <!-- Social Links -->
@@ -150,7 +184,7 @@
       <div class="footer__middle">
         <p>Wir freuen uns, von dir zu hören!</p>
         <div class="links_row">
-          <a href="mailto:contact@company.com"> Kontaktiere uns </a>
+          <a href="mailto:sceyne.digital@gmail.com"> Kontaktiere uns </a>
           <a
             href="https://www.picktime.com/53bcdc5d-544c-4240-bed0-4e4c707374bd"
             >Vereinbare ein kostenloses und unverbindliches Erstgespräch</a
@@ -166,6 +200,5 @@
     </footer>
     <!-- Include scripts at the end of body -->
     <script src="./js/scripts.js"></script>
-    <!-- <script src="{{ '/js/scripts.js' | relative_url }}"></script> -->
   </body>
 </html>

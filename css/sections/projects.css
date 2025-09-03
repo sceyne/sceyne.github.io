@@ -9,7 +9,6 @@
 
 .section__projects h3 {
   text-align: center;
-  font-family: Outfit;
   font-size: clamp(1.5rem, 3vw, 2rem);
   margin-bottom: var(--space-2);
 }
@@ -67,10 +66,12 @@
 }
 
 .project__text p {
+  font-family: Inter;
   color: black;
+  text-align: left;
 }
 
-.project__text h4 {
+.project__text h3 {
   color: black;
 }
 
@@ -101,37 +102,46 @@
 }
 
 /* ================== Responsive ================== */
-
-/* Tablets */
-/* ================== Responsive ================== */
 @media (max-width: 1024px) {
+  .section__projects {
+    height: auto; /* ✅ let blocks expand */
+    /* margin-bottom: var(--space-3); */
+  }
   .projects__view {
     flex-direction: column;
+    width: 100%;
     align-items: center;
     gap: var(--space-2);
-    max-height: none;
+    height: auto;
+    max-height: none; /* ✅ remove 500px restriction */
   }
 
   .project__block {
     flex: none;
     width: 80%; /* stacked blocks width */
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: auto;
     margin: 0;
+    transform: none !important; /* ✅ cancel overlap transforms */
+    opacity: 1 !important; /* both visible */
+    z-index: auto !important;
+    display: flex;
+    cursor: none;
   }
 
   .project__text,
   .project__img {
     flex: none;
     width: 100%;
-    height: auto;
+    box-sizing: border-box;
+    border-radius: 0;
   }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
   .project__block {
-    width: 95%;
+    width: 90%;
   }
 }
 

@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("DOM fully loaded");
   // 1️⃣ Sticky header background on scroll
   const header = document.querySelector(".header__nav");
 
@@ -9,6 +8,21 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       header.classList.remove("scrolled");
     }
+  });
+
+  const scrollLink = document.getElementById("scrollToHome");
+
+  scrollLink.addEventListener("click", (e) => {
+    e.preventDefault(); // prevent default anchor jump
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  const burger = document.querySelector(".header__burger");
+  const mobileMenu = document.querySelector(".header__menu_mobile");
+
+  burger.addEventListener("click", () => {
+    mobileMenu.classList.toggle("open");
+    burger.classList.toggle("open"); // animate burger into X
   });
 
   // 2️⃣ Block toggle logic

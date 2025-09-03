@@ -6,11 +6,13 @@
 .privacy-policy__intro {
   padding: 2% 15%;
   hyphens: auto;
+  font-family: Inter;
 }
 
 .privacy-policy__txt {
   padding: 0 15%;
   hyphens: auto;
+  font-family: Inter;
 }
 
 .privacy-policy__ch {
@@ -23,11 +25,30 @@
   hyphens: auto;
 }
 
-li {
-  /* padding: 0 15% 0 17%;
-  hyphens: auto; */
+.custom__list {
+  padding: 0 15%;
+  font-family: Inter;
 }
 
 .privacy-policy__txt a {
   text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .privacy-policy__intro {
+    padding: 2% 5%;
+  }
+  .privacy-policy__txt {
+    padding: 0 5%;
+  }
+  .privacy-policy__ch {
+    padding: 3% 5% 1%;
+  }
+  .privacy-policy__sec {
+    padding: 2% 5% 1%;
+  }
+  .custom__list {
+    padding: 0 5%;
+  }
 }

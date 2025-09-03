@@ -85,6 +85,7 @@ h2 {
   font-size: clamp(1.75rem, 3vw, 2.25rem);
 }
 h3 {
+  font-family: Outfit;
   color: white;
   font-size: clamp(1.25rem, 2vw, 1.5rem);
 }
