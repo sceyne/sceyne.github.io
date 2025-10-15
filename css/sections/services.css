@@ -7,6 +7,7 @@
   flex-direction: column;
   margin-bottom: 15vh;
   padding: var(--space-2) 0;
+  justify-content: center;
 }
 
 .section__services h2 {
@@ -73,7 +74,7 @@
 
 .serives__summary_text {
   width: 90%;
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: var(--space-2) auto;
   font-family: Inter;
   font-size: clamp(1rem, 1.5vw, 1.125rem);
