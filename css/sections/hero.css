@@ -14,7 +14,7 @@
 .hero__text {
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 85%;
   vertical-align: middle;
   word-break: break-word; /* break long words if needed */
   justify-content: space-between;
