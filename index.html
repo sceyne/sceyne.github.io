@@ -74,13 +74,21 @@
   <body>
     <header>
       <div class="header__background">
-        <nav class="header__nav">
+        <nav class="header__nav" aria-label="Hauptnavigation">
           <div class="header__logo">
-            <img src="./public/SDLogoWhite+Name.png" />
+            <a href="/" aria-label="sceyne digital Startseite"></a>
+            <img
+              src="./public/SDLogoWhite+Name.png"
+              alt="sceyne digital Logo"
+            />
+          </a>
           </div>
 
           <!-- Burger button -->
-          <button class="header__burger" aria-label="Open menu">
+          <button
+            class="header__burger"
+            aria-label="Menü öffnen oder schließen"
+          >
             <span></span>
             <span></span>
             <span></span>
@@ -113,18 +121,30 @@
         </nav>
         <div class="hero">
           <div class="hero__text">
-            <h2>Von der Idee bis zur erfolgreichen mobilen App.</h2>
+            <h1>
+              Mobile App Entwicklung in München - von der Idee bis zur
+              erfolgreichen mobilen App.
+            </h1>
             <p>
-              Mit unserem Know-How begleiten wir dich zu deiner Vision und
-              machen den Weg dorthin <b>einfach, kreativ und effizient</b>.
+              Wir sind <strong>sceyne digital</strong>, deine
+              <strong>App Agentur in München</strong>. Unser Team entwickelt
+              maßgeschneiderte
+              <strong>iOS-, Android- und Cross-Platform-Apps</strong>, die
+              Benutzer begeistern und dein Business voranbringen –
+              professionell, agil und kreativ. Wir sind Mit unserem Know-How
+              begleiten wir dich zu deiner Vision und machen den Weg dorthin
+              <b>einfach, kreativ und effizient</b>.
             </p>
           </div>
           <a
             href="https://www.picktime.com/53bcdc5d-544c-4240-bed0-4e4c707374bd"
             class="hero__contact_button"
-            >Ein kostensloses und unverbindliches Erstgespräch vereinbaren</a
+            >Jetzt kostensloses Erstgespräch vereinbaren</a
           >
-          <button class="hero__button_show_more">
+          <button
+            class="hero__button_show_more"
+            aria-label="Mehr über unsere Leistungen erfahren"
+          >
             Erfahre mehr
             <span class="arrow">↓</span>
           </button>
