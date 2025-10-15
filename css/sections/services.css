@@ -29,7 +29,7 @@
 /* Individual service block */
 .service__block {
   flex: 1 1 40%; /* grow, shrink, minimum 300px */
-  max-width: 400px;
+  /* max-width: 400px; */
   display: flex;
   flex-direction: column; /* stack title and text vertically */
   background-color: white;
